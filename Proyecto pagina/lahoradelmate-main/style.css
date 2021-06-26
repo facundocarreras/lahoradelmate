@@ -1,0 +1,121 @@
+body{
+    background-color: #666666;
+    font-family: Lemon milk;
+    color: #ffcc66;
+    font-size: 16pt;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+
+
+h1 {
+    font-size: 2rem;
+
+}
+
+}
+.header{
+    background-color: #cccccc;
+    color: #ffcc66;
+    width: 100%;
+    height: 75px;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    width: 100%;
+ 
+
+    
+
+}
+
+.header a{
+    color: #1a140a;
+    text-decoration: none;
+    text-align: right;
+
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+
+.logo {
+    position: relative;
+    right: 400px;
+    box-sizing: border-box;
+    float: left;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    text-align: right;
+}
+
+.navigation ul li a {
+    position: relative;
+    left: 400px;
+    display: block;
+    padding: 1.3rem 1rem;
+    transition: all 1s linear;
+    border-radius: 10px;
+    float: right;
+    
+
+}
+
+.navigation ul li a:hover {
+    background-color: #ffcc66;
+
+
+}
+
+.footer {
+    background-color: #cccccc;
+    color: #ffcc66;
+    width: 100%;
+    height: 100%;
+    padding: 1.9rem 0rem;
+    text-align: right;
+    margin-bottom: 0px;
+  
+   
+}
+
+.main {
+    padding-top: 7rem;
+
+}
+
+.copy{
+    display: inline-block;
+    text-align: right;
+    font-family: book antigua;
+    color: black;
+    font-size: 12pt;
+
+}
+
+footer .redes{
+    position: relative;
+    float: left;
+    bottom: 11px;
+    left: 30px;
+
+    display: inline-block;
+
+    
+}

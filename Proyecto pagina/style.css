@@ -1,0 +1,202 @@
+body{
+    background-color: #666666;
+    font-family: Lemon milk;
+    color: #ffcc66;
+    font-size: 20pt;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+
+
+h1 {
+    font-size: 2rem;
+
+}
+
+}
+.header{
+    background-color: #cccccc;
+    color: #ffcc66;
+    width: 100%;
+    height: 100%; 
+ 
+
+    
+
+}
+
+.header a{
+    color: #1a140a;
+    text-decoration: none;
+    text-align: right;
+
+}
+
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+
+.logo {
+    position: relative;
+    right: 360px;
+    box-sizing: border-box;
+    float: left;
+    top: 3px;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    text-align: right;
+}
+
+.navigation ul li a {
+    position: relative;
+    left: 285px;
+    display: block;
+    padding: 1.3rem 1rem;
+    transition: all 1s linear;
+    border-radius: 10px;
+    float: right;
+    
+
+}
+
+.navigation ul li a:hover {
+    background-color: #ffcc66;
+    position: relative;
+    top: 5px;
+
+
+
+}
+
+.footer {
+    background-color: #666666;
+    color: #ffcc66;
+    width: 100%;
+    height: 100%;
+    padding: 1.9rem 0rem;
+    text-align: right;
+    margin-bottom: 0px;
+  
+   
+}
+
+.main {
+    padding-top: 5rem;
+
+}
+
+.copy{
+    display: inline-block;
+    text-align: right;
+    font-family: book antigua;
+    color: black;
+    font-size: 12pt;
+
+}
+
+footer .redes{
+    position: relative;
+    float: left;
+    bottom: 11px;
+    left: 30px;
+
+    display: inline-block;
+
+    
+}
+
+.conte{
+    width: 90%;
+    max-width: 600px;
+    margin:  10%;
+    margin-right: 10%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+
+}
+
+
+*item-img{
+    max-width: 100%;
+    display: block;
+   
+
+}
+
+
+
+.item::after{
+    content:"";
+    background-color: rgb(179, 229, 252,.1);
+    width: 100%;
+    height: 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(0);
+    transition: all 300ms;
+    opacity: 0;
+}
+.item:hover::after{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.item{
+   
+    background-color: aliceblue;
+cursor: pointer;
+box-shadow: 0 0 5px 0 rgb(0,0,0,.095);
+transition: all 300ms;
+text-align: center;
+text-decoration: #1a140a;
+ 
+
+}
+
+.item:hover{
+    transform:scale(1.05);
+}
+
+.item-text{
+    padding: 1em;
+ 
+  
+   
+}
+
+@media screen and (min-width: 490px) {
+      .container{
+          grid-template-columns: repeat(2,1fr);
+      }
+}
+
+@media screen and (min-width: 860px) {
+    .container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+.btn-primary{
+    background-color: #66cc66;
+    
+   
+}
